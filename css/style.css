@@ -1,0 +1,298 @@
+body{
+	font-family:'open-sans', sans-serif;
+	font-size: 17px;
+	line-height: 1.5em;/*height between each line*/
+	margin: 0;/*so there is no space around the website*/
+	padding: 0;
+	
+}
+img{
+	width: 100%;
+}
+.container{
+	margin: auto;
+}
+/*common classes*/
+.primary-text{
+	color: #ffde22;
+
+}
+.primary-background{
+	color: #ffde22;
+	
+}
+#subheader{
+	margin-top: 50px;
+}
+/*header*/
+#main-header{
+	border-bottom: 2px solid #393f4d;
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	right: 0;
+	height: 50px;
+	
+}
+
+/*navbar*/
+
+#navbar{
+	text-transform: uppercase;
+	
+}
+#navbar li{
+	display: inline-block;
+	padding-right: 20px;
+	list-style: none;
+}
+#navbar a{
+	text-decoration: none;
+	color: #888;
+}
+#navbar li.current a{
+	color: #393f4d;
+	border-bottom: 3px solid #393f4d;
+	padding-bottom: 3px;
+}
+#navbar a:hover{
+	color: #d4d4dc;
+	border-bottom: 3px solid #d4d4dc;
+	padding-bottom: 3px;
+
+}
+/*showcase*/
+#showcase{
+	background: url('../images/home bg.jpg') no-repeat center center ;
+	border-bottom: 1px solid #393f4d;
+	margin-bottom: 0;
+	background-size: cover;
+
+}
+#showcase .row{
+	height: 600px;
+}
+#showcase h1{
+	font-size: 50px;
+	margin:0;
+	padding-bottom: 20px;
+}
+#showcase p{
+	color: #1d1e22;
+	margin: 0;
+	font-weight:bold;
+}
+#showcase .showcase-content{
+	background:#fff;
+	color: #1d1e22;
+	border-radius: 90px;
+	padding: 40px;
+	opacity: 0.9;
+	overflow: auto;
+	z-index: 5;
+}
+/*about*/
+#team {
+    background: #fff;
+  }
+  .team-info {
+    padding: 10px 30px 20px 30px;
+  }
+  #team .img-responsive{
+  	width: 400px;
+  	height: 400px;
+  	object-fit:contain;
+
+  }
+
+  
+  .team-info p {
+    color: #1d1e22;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  .team-info h3{
+    color: #393f4d;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+/*company*/
+#company{
+	background:#393f4d;
+	color: #fff;
+	padding: 10px 0;
+	margin-top: 0;
+}
+#company h4{
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+#company ul{
+	padding: 0;
+	list-style: none;
+	line-height: 2em;
+}
+#company input[type="name"]{
+	padding: 7px;
+}
+#company button{
+	background: #222;
+	color: #fff;
+	padding: 10px;
+	border:0;
+}
+/*footer*/
+#main-footer{
+	background:#393f4d;
+	color: #ffde22;
+}
+/*page*/
+#page{
+	margin-bottom: 40px;
+}
+/*recipes*/
+.recipes li{
+	list-style: none;
+	padding: 10px;
+}
+.recipes ul li{
+	background:#fff;
+	color: #1d1e22;
+}
+
+.recipes h3 a{
+	text-decoration: none;
+	background-color: #ffde22;
+	color: #1d1e22;
+	border-radius: 50px;
+	padding: 10px;
+	opacity: 1.0;
+
+}
+.riceRecipe h1{
+	color: #393f4d;
+	text-transform: uppercase;
+}
+#rice img{
+	max-width: 100%;
+	/*max-height: 100%;*/
+	display: block;
+}
+
+#theRecipe  ul li{
+	list-style: none;
+}
+
+/*contact*/
+.contact form{
+	background: #393f4d;
+	color: #ffde22;
+	padding: 20px;
+	
+}
+.contact form input[type="text"]{
+	width: 50%;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 50px;
+
+}
+.contact form textarea{
+	width: 50%;
+	height: 100px;
+	
+	
+
+}
+.contact form button{
+	width: 30%;
+	padding-bottom: 10px 0;
+	border:0;
+	background: #222;
+	color: #ffde22;
+	border-radius: 50px;
+	font-size: 20px;
+}
+.contact form label{
+	text-transform: uppercase;
+
+}
+/*menu*/
+#menu #menu1  .img-responsive{
+	width: 300px;
+  	height: 300px;
+  	object-fit:cover;
+
+}
+#menu #menu2  .img-responsive{
+	width: 300px;
+  	height: 300px;
+  	object-fit:cover;
+
+}
+#priceList h2 a{
+	text-decoration: none;
+	background-color: #393f4d;
+	color: #ffde22;
+	border-radius:50px;
+	padding: 10px;
+	opacity: 1.0em;
+}
+.priceList{
+	width: 500px;
+}
+
+#pricelist{
+	
+	border-collapse: collapse;
+}
+#pricelist caption{
+	padding:0;
+	text-align: left;
+}
+
+
+#pricelist th,
+#pricelist td{
+	padding: 1em 0;
+	text-align: left;
+	width: 500px;
+	padding-right: 0;
+}
+
+#pricelist  .foodtype{
+	text-transform: uppercase;
+	color: #393f4d;
+}
+#pricelist .food{
+	text-transform: unset;
+	color: #1d1e22;
+}
+/*media queries*/
+@media(max-width:800px){
+	#showcase h1{
+		font-size: 30px;
+	}
+
+}
+@media(max-width:500px){
+	#showcase .showcase-content{
+		padding:40px 10px;
+	}
+
+}
+@media (max-width: 960px){
+	nav ul{
+		display:inline-block;
+		float: right;
+	}
+}
